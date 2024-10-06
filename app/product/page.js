@@ -76,6 +76,7 @@ export default function Home() {
             body: JSON.stringify(data)
         }).then(() => {
             fetchProduct();
+            stopEditMode();
         })
     }
 
